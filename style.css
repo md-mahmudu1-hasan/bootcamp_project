@@ -11,7 +11,7 @@ body {
   width: 100%;
 }
 
-.nav{
+.nav {
   background-color: #f5f5f7;
   display: flex;
   margin: auto;
@@ -48,6 +48,7 @@ button {
 
 button:hover {
   transform: scale(1.05);
+  background: linear-gradient(130deg, #3d3632, #271202);
   box-shadow: 3px 12px 10px rgba(255, 153, 1, 0.15);
 }
 
@@ -87,14 +88,14 @@ h1 {
   padding: 60px 0;
 }
 
-.secend_pera button{
-  margin-top:120px;
+.secend_pera button {
+  margin-top: 120px;
 }
 
 .innertext {
   width: 60%;
   padding: 40px;
-  line-height:30px;
+  line-height: 30px;
 }
 
 .secendtext {
@@ -103,7 +104,7 @@ h1 {
   margin: 100px;
   font-weight: bold;
 }
-.secendtext p{
+.secendtext p {
   color: #745133;
 }
 .video {
@@ -118,9 +119,9 @@ iframe {
   width: 830px;
   height: 400px;
 }
-.thirdtext{
+.thirdtext {
   text-align: center;
-  padding:80px ;
+  padding: 80px;
   color: #473223;
 }
 
@@ -130,51 +131,59 @@ iframe {
   flex-wrap: wrap;
 }
 
-.card{
+.card {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  background:linear-gradient(to bottom, #ceb9ae , #793f12);
+  background: linear-gradient(to bottom, #ceb9ae, #793f12);
   width: 200px;
   padding: 10px;
   border: none;
   border-radius: 10px;
   color: #452814;
-   box-shadow: 3px 4px 10px rgb(0, 0, 0);
-   margin: 10px;
+  box-shadow: 3px 4px 10px rgb(0, 0, 0);
+  margin: 20px;
+  transition: all 0.5s ease-in 0.1s;
 }
 
 .card img {
   height: 80px;
   width: 80px;
   padding-left: 10px;
-  filter:contrast(7);
+  filter: contrast(7);
+  filter: brightness(1);
 }
 .card a {
   color: #150d07;
-   font-weight: bold;
-   padding-left: 18px;
-
+  font-weight: bold;
+  padding-left: 18px;
 }
-.card p{
+.card p {
   font-weight: bold;
   padding-left: 25px;
 }
 
+.card:hover {
+  transform: scale(1.1);
+  background: linear-gradient(to bottom, #6b605a, #4e280b);
+  color: rgb(255, 136, 0);
+}
+
 footer {
-  margin-top:100px ;
+  margin-top: 100px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
   padding: 10px;
   background-color: #f3e6dd;
-  position:relative;
+  position: relative;
   bottom: 0;
 }
 
-footer h3 , .logo{
-  padding:0 100px;
+footer h3,
+.logo {
+  padding: 0 100px;
 }
 
 .logo img {
