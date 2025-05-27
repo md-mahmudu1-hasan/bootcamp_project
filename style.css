@@ -8,16 +8,16 @@
 
 body {
   background: linear-gradient(180deg, #fffbe9, #ceab93);
-  height: 500vh;
-  background-size: max(1200px, 100vw);
+  width: 100%;
 }
 
 .nav{
   background-color: #f5f5f7;
   display: flex;
+  margin: auto;
   justify-content: space-between;
   height: 70px;
-  width: 100%;
+  width: 100vw;
   box-shadow: 3px 4px 10px #966949;
 }
 .nav .alal {
@@ -52,7 +52,7 @@ button:hover {
 }
 
 main {
-  padding: 0px 100px;
+  margin: 0px 100px;
 }
 .first_pera {
   background-color: #fffbe9;
@@ -79,19 +79,15 @@ h1 {
   color: #b85717;
 }
 .secend_pera {
-  position: relative;
+  display: flex;
   background-color: #fffbe9;
-  height: 500px;
+  flex-direction: row-reverse;
 }
 .secend_pera img {
-  position: absolute;
-  left: 60%;
   padding: 60px 0;
 }
 
 .innertext {
-  position: relative;
-  top: 80px;
   width: 60%;
   padding: 40px;
   line-height: 30px;
@@ -115,6 +111,8 @@ h1 {
 
 iframe {
   border-radius: 10px;
+  width: 830px;
+  height: 400px;
 }
 .thirdtext{
   text-align: center;
