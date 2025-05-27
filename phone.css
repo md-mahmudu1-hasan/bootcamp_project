@@ -1,10 +1,10 @@
-@media (max-width: 1017px) {
+@media (max-width: 987px) {
     main {
         margin: 0 50px;
         
     }
      .nav{
-        width: 500px;
+        min-width: 500px;
     }
 
     .first_pera {
@@ -64,3 +64,60 @@
         min-width: 500px;
     }
 }
+
+@media (max-width: 676px) and (min-width:543px) {
+     .first_pera {
+        min-width: 500px;
+    }
+
+     .text {
+        width: 500px;
+    }
+
+    .secend_pera {
+        width: 500px;
+    }
+
+    .secend_pera img{
+     width:500px ;
+    }
+
+    .innertext {
+        width: 500px;
+    }
+
+    .video{
+    width: 500px;
+} 
+
+}
+
+
+@media (max-width: 986px) and (min-width:675px){
+          .first_pera {
+        min-width: 700px;
+    }
+
+     .text {
+        width: 700px;
+    }
+
+    .secend_pera {
+        width: 700px;
+    }
+
+    .secend_pera img{
+     width:700px ;
+    }
+
+    .innertext {
+        width: 700px;
+    }
+
+    .video{
+    width: 700px;
+} 
+
+}
+
+

@@ -158,6 +158,10 @@ iframe {
   font-weight: bold;
   padding-left: 18px;
 }
+
+.card a:hover{
+  color: rgb(255, 136, 0);
+}
 .card p {
   font-weight: bold;
   padding-left: 25px;
