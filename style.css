@@ -9,9 +9,10 @@
 body {
   background: linear-gradient(180deg, #fffbe9, #ceab93);
   height: 500vh;
+  background-size: max(1200px, 100vw);
 }
 
-.nav {
+.nav{
   background-color: #f5f5f7;
   display: flex;
   justify-content: space-between;

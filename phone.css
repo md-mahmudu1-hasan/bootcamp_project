@@ -1,20 +1,5 @@
-/* @media (max-width: 768px) {
-  .nav {
-    flex-direction: column;
-    height: auto; 
-    padding: 10px; 
-    align-items: center; 
-  }
-} */
-
-/* @media (min-width: 1063px) {
-   .nav{
-     max-width: 1000px;
-   } 
-} */
-
-/* @media (max-width: 768px) {
-  .nav {
-    align-items: flex-start;
-  }
-} */
+@media (max-width: 1017px) {
+    body {
+        width: 238vw;
+    }
+}
