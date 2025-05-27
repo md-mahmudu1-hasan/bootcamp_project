@@ -87,10 +87,14 @@ h1 {
   padding: 60px 0;
 }
 
+.secend_pera button{
+  margin-top:100px;
+}
+
 .innertext {
   width: 60%;
   padding: 40px;
-  line-height: 30px;
+  line-height:30px;
 }
 
 .secendtext {
